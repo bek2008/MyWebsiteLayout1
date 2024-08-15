@@ -1,0 +1,42 @@
+footer{
+    background-color: #F6F6F6;
+    color: #4D4D4D;
+}
+h3{
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footerContainer{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.social{
+    display: flex;
+    flex-direction: column ;
+}
+
+.social a{
+    text-decoration: underline; 
+}
+@media only screen and (min-width: 768px) {
+    footer{
+        padding: 4em;
+    }
+    .footerContainer{
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        margin: 1em 0;
+    }
+}
